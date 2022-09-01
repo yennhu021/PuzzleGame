@@ -1,0 +1,22 @@
+* {
+    font-family:'Press Start 2P', cursive;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 340px 200px;
+    justify-content: center;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#board {
+    border: 2px solid gray;
+}
+.play-btn {
+    background-color: chartreuse;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
